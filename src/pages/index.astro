@@ -1,9 +1,11 @@
 ---
 import "@/shared/css/global.css";
 
+import { Greeting } from "@/widgets/greeting/ui/greeting";
 import BaseLayout from "@/shared/layouts/base-layout.astro";
 ---
 
 <BaseLayout title="Home">
   <h2>My awesome blog subtitle</h2>
+  <Greeting client:idle messages={["Hi", "Hello", "Howdy", "Hey there"]} />
 </BaseLayout>
