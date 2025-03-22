@@ -22,3 +22,10 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+.env
+.env.local
+.env.development
+.env.production
+.env.development.local
+.env.production.local
